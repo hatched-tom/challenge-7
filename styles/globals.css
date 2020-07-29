@@ -1,0 +1,47 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #000;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.clock-wrapper {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock {
+  background-color: #000;
+  color: #090;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: monospace;
+  display: inline-flex;
+  align-items: center;
+}
+
+.number-wrapper {
+  display: inline-flex;
+  align-items: center;
+}
+
+.number {
+  display: inline-flex;
+  align-items: center;
+  font-size: 64px;
+  color: #0f0;
+  text-shadow: 0 0 10px #0f0;
+}
